@@ -83,7 +83,7 @@
             </div>
             <div class="flex items-center gap-2 text-sm text-slate-400 font-medium">
                 Powered by
-                <a href="https://nahost.online"
+                <a href="https://nahost.in.th"
                     class="px-3 py-1 bg-gray-50 border border-gray-100 rounded-lg text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:scale-105 transition-transform font-bold">
                     NaHost
                 </a>

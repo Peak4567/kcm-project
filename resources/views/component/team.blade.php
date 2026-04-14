@@ -41,7 +41,7 @@
                         <a href="https://discord.gg/vwEyGsY45X" target="_blank"
                             class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-discord text-sm"></i></a>
-                        <a href="https://sarunyakorn.online/" target="_blank"
+                        <a href="{{ route('sarunyakorn') }}" target="_blank"
                             class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-regular fa-earth-asia text-sm"></i></a>
                         <a href="https://www.instagram.com/peakky.ig/" target="_blank"
@@ -76,7 +76,7 @@
                         <a href="https://discord.gg/vwEyGsY45X" target="_blank"
                             class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all"><i
                                 class="fa-brands fa-discord text-sm"></i></a>
-                        <a href="https://nataphon.online" target="_blank"
+                        <a href="{{ route('nataphon') }}" target="_blank"
                             class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all"><i
                                 class="fa-regular fa-earth-asia text-sm"></i></a>
                         <a href="https://www.instagram.com/_xpt222/" target="_blank"
