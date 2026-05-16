@@ -20,13 +20,15 @@
 
             <div class="group flex flex-col items-center">
                 <div class="relative mb-6">
-                    <div class="absolute inset-0 bg-blue-600 rounded-[2rem] rotate-6 group-hover:rotate-0 transition-transform duration-500"></div>
-                    <img src="{{asset('assets/img/profile/peak.png')}}"
+                    <div
+                        class="absolute inset-0 bg-blue-600 rounded-[2rem] rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('assets/img/profile/peak.png') }}"
                         class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
-                        alt="ศรัณยกร เทพสุนทร">
+                        alt="Sarunyakorn Thepsuntorn">
                 </div>
                 <div class="text-center">
-                    <h5 class="text-xl font-bold text-slate-900 mb-1">ศรัณยกร เทพสุนทร</h5>
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Sarunyakorn Thepsuntorn</h5>
                     <p class="text-sm font-bold text-blue-600 uppercase tracking-widest font-anuphan">
                         FOUNDER <span class="text-slate-400 font-medium">/ KRACHABMITR</span>
                     </p>
@@ -56,31 +58,33 @@
 
             <div class="group flex flex-col items-center">
                 <div class="relative mb-6">
-                    <div class="absolute inset-0 bg-cyan-500 rounded-[2rem] -rotate-6 group-hover:rotate-0 transition-transform duration-500"></div>
-                    <img src="{{asset('assets/img/profile/miw.jpg')}}"
+                    <div
+                        class="absolute inset-0 bg-cyan-500 rounded-[2rem] -rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('assets/img/profile/miw.jpg') }}"
                         class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
-                        alt="ณฐภณ เที่ยงแท้">
+                        alt="Nataphon Thiangtae">
                 </div>
                 <div class="text-center">
-                    <h5 class="text-xl font-bold text-slate-900 mb-1">ณฐภณ เที่ยงแท้</h5>
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Nataphon Thiangtae</h5>
                     <p class="text-sm font-bold text-cyan-600 uppercase tracking-widest font-anuphan">
                         CO-FOUNDER <span class="text-slate-400 font-medium">/ KRACHABMITR</span>
                     </p>
                     <div class="flex justify-center gap-2 mt-6">
                         <a href="https://www.youtube.com/@xpintokung_z" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-red-500 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-red-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-youtube text-sm"></i></a>
                         <a href="https://web.facebook.com/xPintoKunGz" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm"><i
                                 class="fab fa-facebook-f text-sm"></i></a>
                         <a href="https://discord.gg/vwEyGsY45X" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-discord text-sm"></i></a>
                         <a href="{{ route('nataphon') }}" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-regular fa-earth-asia text-sm"></i></a>
                         <a href="https://www.instagram.com/_xpt222/" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-pink-500 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-pink-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-instagram text-sm"></i></a>
                     </div>
                 </div>
@@ -88,28 +92,30 @@
 
             <div class="group flex flex-col items-center">
                 <div class="relative mb-6">
-                    <div class="absolute inset-0 bg-slate-200 rounded-[2rem] group-hover:rotate-3 transition-transform duration-500"></div>
-                    <img src="{{asset('/assets/img/profile/nub.jpg')}}"
+                    <div
+                        class="absolute inset-0 bg-purple-500 rounded-[2rem] rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('/assets/img/profile/nub.jpg') }}"
                         class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
-                        alt="พลภัทร ใจซื่อดี">
+                        alt="Phonlaphat Jaisuedee">
                 </div>
                 <div class="text-center">
-                    <h5 class="text-xl font-bold text-slate-900 mb-1">พลภัทร ใจซื่อดี</h5>
-                    <p class="text-sm font-bold text-slate-500 uppercase tracking-widest font-anuphan">
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Phonlaphat Jaisuedee</h5>
+                    <p class="text-sm font-bold text-purple-600 uppercase tracking-widest font-anuphan">
                         ADVISOR <span class="text-slate-400 font-medium">/ Creator</span>
                     </p>
                     <div class="flex justify-center gap-2 mt-6">
                         <a href="https://www.youtube.com/@xnuengkung_z6081" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-red-500 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-red-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-youtube text-sm"></i></a>
                         <a href="https://web.facebook.com/profile.php?id=100028776095658" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm"><i
                                 class="fab fa-facebook-f text-sm"></i></a>
                         <a href="https://discord.gg/vwEyGsY45X" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-discord text-sm"></i></a>
-                        <a href="https://nuengkung.online" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all"><i
+                        <a href="/phonlaphat" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-regular fa-earth-asia text-sm"></i></a>
                     </div>
                 </div>
@@ -117,28 +123,151 @@
 
             <div class="group flex flex-col items-center">
                 <div class="relative mb-6">
-                    <div class="absolute inset-0 bg-pink-100 rounded-[2rem] -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
-                    <img src="{{asset('/assets/img/profile/christ.png')}}"
+                    <div
+                        class="absolute inset-0 bg-pink-500 rounded-[2rem] -rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('/assets/img/profile/christ.png') }}"
                         class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
-                        alt="ณิชากร กรณีกิจ">
+                        alt="Nichakorn Koraneekit">
                 </div>
                 <div class="text-center">
-                    <h5 class="text-xl font-bold text-slate-900 mb-1">ณิชากร กรณีกิจ</h5>
-                    <p class="text-sm font-bold text-slate-500 uppercase tracking-widest font-anuphan">
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Nichakorn Koraneekit</h5>
+                    <p class="text-sm font-bold text-pink-600 uppercase tracking-widest font-anuphan">
                         ADVISOR <span class="text-slate-400 font-medium">/ CREATIVE</span>
                     </p>
                     <div class="flex justify-center gap-2 mt-6">
                         <a href="https://www.youtube.com/@vc_znontkissz_4960" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-red-500 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-red-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-youtube text-sm"></i></a>
                         <a href="https://web.facebook.com/nichakorn.koraneekit.3" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm"><i
                                 class="fab fa-facebook-f text-sm"></i></a>
                         <a href="https://discord.gg/vwEyGsY45X" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all"><i
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
                                 class="fa-brands fa-discord text-sm"></i></a>
-                        <a href="https://nichakorn.online" target="_blank"
-                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all"><i
+                        <a href="/nichakorn" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-regular fa-earth-asia text-sm"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group flex flex-col items-center">
+                <div class="relative mb-6">
+                    <div
+                        class="absolute inset-0 bg-indigo-500 rounded-[2rem] rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('/assets/img/profile/day.png') }}"
+                        class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
+                        alt="Bannason Rungjang">
+                </div>
+                <div class="text-center">
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Bannason Rungjang</h5>
+                    <p class="text-sm font-bold text-indigo-600 uppercase tracking-widest font-anuphan">
+                        UX/UI <span class="text-slate-400 font-medium">/ DESIGN</span>
+                    </p>
+                    <div class="flex justify-center gap-2 mt-6">
+                        <a href="https://www.facebook.com/daykung.naja" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm"><i
+                                class="fab fa-facebook-f text-sm"></i></a>
+                        <a href="https://www.instagram.com/day.dk_1/" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-instagram text-sm"></i></a>
+                        <a href="https://discord.gg/vwEyGsY45X" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-discord text-sm"></i></a>
+                        <a href="/bannason" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-regular fa-earth-asia text-sm"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group flex flex-col items-center">
+                <div class="relative mb-6">
+                    <div
+                        class="absolute inset-0 bg-emerald-500 rounded-[2rem] -rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('/assets/img/profile/leo.png') }}"
+                        class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
+                        alt="Pradir Srisonkkaew">
+                </div>
+                <div class="text-center">
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Pradir Srisonkkaew</h5>
+                    <p class="text-sm font-bold text-emerald-600 uppercase tracking-widest font-anuphan">
+                        TECHNICIAN <span class="text-slate-400 font-medium">/ TEAM</span>
+                    </p>
+                    <div class="flex justify-center gap-2 mt-6">
+                        <a href="https://www.instagram.com/leopradit/" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-instagram text-sm"></i></a>
+                        <a href="https://discord.gg/vwEyGsY45X" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-discord text-sm"></i></a>
+                        <a href="/pradir" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-regular fa-earth-asia text-sm"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group flex flex-col items-center">
+                <div class="relative mb-6">
+                    <div
+                        class="absolute inset-0 bg-amber-400 rounded-[2rem] rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('/assets/img/profile/tee.jpg') }}"
+                        class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
+                        alt="Luck Puapitsirikul">
+                </div>
+                <div class="text-center">
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Luck Puapitsirikul</h5>
+                    <p class="text-sm font-bold text-amber-500 uppercase tracking-widest font-anuphan">
+                        ASSISTANT <span class="text-slate-400 font-medium">/ ADVISOR</span>
+                    </p>
+                    <div class="flex justify-center gap-2 mt-6">
+                        <a href="https://www.facebook.com/luck.puapitsirikul.7" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm"><i
+                                class="fab fa-facebook-f text-sm"></i></a>
+                        <a href="https://www.instagram.com/tza_teetee/" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-instagram text-sm"></i></a>
+                        <a href="https://discord.gg/vwEyGsY45X" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-discord text-sm"></i></a>
+                        <a href="/luck" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-regular fa-earth-asia text-sm"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group flex flex-col items-center">
+                <div class="relative mb-6">
+                    <div
+                        class="absolute inset-0 bg-teal-500 rounded-[2rem] -rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    </div>
+                    <img src="{{ asset('/assets/img/profile/walid.jpg') }}"
+                        class="relative w-48 h-48 md:w-56 md:h-56 object-cover rounded-[2rem] shadow-2xl transition-all duration-500 border-4 border-white"
+                        alt="Supakorn Supimaros">
+                </div>
+                <div class="text-center">
+                    <h5 class="text-xl font-bold text-slate-900 mb-1">Supakorn Supimaros</h5>
+                    <p class="text-sm font-bold text-teal-600 uppercase tracking-widest font-anuphan">
+                        LEGAL <span class="text-slate-400 font-medium">/ ADVISOR</span>
+                    </p>
+                    <div class="flex justify-center gap-2 mt-6">
+                        <a href="https://www.facebook.com/hwa.hwa.841720" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-blue-600 hover:text-white transition-all shadow-sm"><i
+                                class="fab fa-facebook-f text-sm"></i></a>
+                        <a href="https://www.instagram.com/walid_or_spk/" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-instagram text-sm"></i></a>
+                        <a href="https://discord.gg/vwEyGsY45X" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-[#7289da] hover:text-white transition-all shadow-sm"><i
+                                class="fa-brands fa-discord text-sm"></i></a>
+                        <a href="/supakorn" target="_blank"
+                            class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-50 text-slate-400 hover:bg-green-500 hover:text-white transition-all shadow-sm"><i
                                 class="fa-regular fa-earth-asia text-sm"></i></a>
                     </div>
                 </div>
